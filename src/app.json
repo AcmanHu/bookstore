@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/books/main",
+    "pages/me/main",
+    "pages/comments/main",
+    "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "龟壳图书",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor":"#EA5149",
+    "list": [
+      {
+        "pagePath": "pages/books/main",
+        "text": "图书",
+        "iconPath":"static/img/book.png",
+        "selectedIconPath":"static/img/book_select.png"
+      }, 
+      {
+        "pagePath": "pages/comments/main",
+        "text": "评论",
+        "iconPath":"static/img/comments.png",
+        "selectedIconPath":"static/img/comments_select.png"
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "我",
+        "iconPath":"static/img/me.png",
+        "selectedIconPath":"static/img/me_select.png"
+      }
+    ]
+  }
+}
